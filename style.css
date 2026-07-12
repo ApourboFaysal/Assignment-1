@@ -43,3 +43,40 @@ nav{
     border-radius: 5px;
     cursor: pointer;
 }
+/* hero-banner-start */
+.hero {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('./images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+/* h1-in-banner */
+.hero h1 {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+/* p-in-banner */
+.hero p {
+    color: white;
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+/* button-in-banner */
+.hero button{
+    padding: 10px 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
