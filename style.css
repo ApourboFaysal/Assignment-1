@@ -365,3 +365,25 @@ h1{
     border-radius:16px;
     display:block;
 }
+/* footer-scetion */
+.foot-color{
+    gap: 60px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #666;
+    color: #fff;
+}
+.foot-one{
+    padding-left: 30px;
+}
+.foot-two{
+    padding-right: 30px;
+}
+.foot-two ul{
+    list-style: none; 
+    display: flex;
+    justify-content: flex-start; 
+    gap: 50px; 
+
+}
